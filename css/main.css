@@ -1,0 +1,70 @@
+body{
+    background:#454545;
+    line-height: 1.7;
+}
+.side-bar{
+    float: left;
+    width: 20%;
+    position: fixed;/*使左边栏滑动得时候固*/
+}
+.side-bar>*{
+    padding: 15px 15px;
+}
+.side-bar .nav a,.side-bar .tag-list a{
+    display:block;
+    padding:5px;
+    color:#999;
+    -webkit-transition: color 200ms;
+    -o-transition: color 200ms;
+    transition: color 200ms;
+}
+.side-bar .nav a:hover,.side-bar .tag-list a:hover{
+    color: #eee;
+}
+.side-bar .nav a{
+    font-weight: 700;
+}
+.main{
+    float: right;
+    width: 80%;
+    color:#555;
+}
+a{
+    text-decoration: none;
+}
+a,body{
+    color:#eee;
+}
+.header .logo{
+    border:5px solid white;
+    padding:10px 20px;
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.article-list{
+    margin-right: 30%;
+    background:#fff;
+    padding: 20px 30px;
+    -webkit-box-shadow:0 0 3px 2px rgba(0,0,0,.2)
+    box-shadow: 0 0 3px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow:0 0 3px 2px rgba(0,0,0,.2)
+}
+.article-list .item .title,.article .title{
+    font-size:25px;
+    color:#555;
+    font-weight: 700;
+    font-weight: 30px;
+    margin: 10px 0;
+}
+.article-list .item .status,.article .status{
+    font-size: 13px;
+    color:#ccc;
+    margin: 10px 0;
+}
+.article-list .item,.article{
+    margin-bottom: 25px;
+}
+.article-list .item>*,.article>*{
+    margin: 10px 0;
+}
